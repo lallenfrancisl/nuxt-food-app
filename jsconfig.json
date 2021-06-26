@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/types"
+    ]
+  },
+  "include": [
+    "**/*",
+    "./components/**/*",
+    "./assets/**/*",
+    "./layouts/**/*",
+    "./middleware/**/*",
+    "./pages/**/*",
+    "./plugins/**/*",
+    "./static/**/*",
+    "./store/**/*",
+  ],
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
