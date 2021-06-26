@@ -15,11 +15,9 @@
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
     "uuid": "^3.4.0",
-    "vue": "^2.6.12"
-  },
-  "devDependencies": {
+    "vue": "^2.6.12",
     "@nuxt/types": "^2.15.4",
-    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.22.0",
@@ -30,5 +28,6 @@
     "node-sass": "^5.0.0",
     "prettier": "^2.2.1",
     "sass-loader": "^10.0.5"
-  }
+  },
+  "devDependencies": {}
 }
